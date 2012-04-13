@@ -73,7 +73,7 @@ class EvernoteAPI:
                 auth_token = response_params.get('oauth_token')[0]
                 edam_shard = response_params.get('edam_shard')[0]
                 edam_userId = response_params.get('edam_userId')[0]
-                expires = int(request_params['oauth_timestamp']) + \
+                expires = int(request_params['oauth_timestamp'])/1000 + \
                         24 * 3600 * settings.EVERNOTE_OAUTH_TOKEN_VALIDITY
                 return {'oauth_token': auth_token,
                         'edam_shard': edam_shard,

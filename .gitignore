@@ -1,0 +1,5 @@
+venv
+evernoteapp/settingslocal.py
+*.pyc
+evernoteapp/static/admin
+*.swp

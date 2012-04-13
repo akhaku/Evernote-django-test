@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>Logged in as {{ user.get_full_name }}</h2>
+<button>Login with Evernote</button>
+<a href="{% url account.views.logout_page %}">Logout</a>
+{% endblock body %}

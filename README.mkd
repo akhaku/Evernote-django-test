@@ -6,7 +6,9 @@ A Django app using the Evernote API
 The sole purpose of this app is for test and demonstrate the usage of the
 Evernote API. It makes use of the Evernote Cloud API with OAuth authentication.
 
+
 App structure:
+
 * account/ - A wrapper around django authentication
 * evernote/ - Evernote's python API
 * evernote_auth/ - Deals with OAuth authentication for Evernote

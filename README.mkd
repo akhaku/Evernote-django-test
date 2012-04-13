@@ -10,5 +10,6 @@ Evernote API. It makes use of the Evernote Cloud API with OAuth authentication.
 App structure:
 
 * account/ - A wrapper around django authentication
-* evernote/ - Evernote's python API
+* evernote/ - Evernote's python cloud API - get the latest version from
+[here](http://dev.evernote.com/documentation/cloud/)
 * evernote_auth/ - Deals with OAuth authentication for Evernote

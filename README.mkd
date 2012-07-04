@@ -1,3 +1,6 @@
+#Project moved to [evernote-django](https://github.com/akhaku/evernote-django)#
+
+
 # Evernote API demo app #
 Author: akhaku (Ammar Khaku)
 
